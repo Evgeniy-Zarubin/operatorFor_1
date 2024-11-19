@@ -5,46 +5,46 @@ public class Main {
         if (age >= 18) {
             System.out.println("Если возраст человека равен " + age + ", то он совершеннолетний");
         }
-        if (age < 18) {
+        else  {
             System.out.println("Если возраст человека равен " + age + ", то он не достиг совершеннолетия, нужно немного подождать");
         }
 
         //Задача 2
-        int temparature = 7;
-        if (temparature < 5) {
+        int temparature = 5;
+        if (temparature <= 5) {
             System.out.println("На улице " + temparature + " градусов, нужно надеть шапку");
         }
-        if (temparature > 5) {
+        else  {
             System.out.println("На улице " + temparature + " градусов, можно идти без шапки");
         }
 
         //Задача 3
-        int speed = 40;
-        if (speed > 60) {
+        int speed = 60;
+        if (speed >= 60) {
             System.out.println("Если скорость " + speed + ", то придётся заплатить штраф");
         }
-        if (speed < 60) {
+        else  {
             System.out.println("Если скорость " + speed + ", то можно ездить спокойно");
         }
 
         //Задача 4
         int ageWork = 15;
-        if (ageWork >= 2 && ageWork < 6) {
+        if (ageWork >= 2 && ageWork <= 6) {
             System.out.println("Если возраст человека равен " + ageWork + ", то ему нужно ходить в детский сад");
         }
-        if (ageWork >= 7 && ageWork < 17) {
+        if (ageWork >= 7 && ageWork <= 17) {
             System.out.println("Если возраст человека равен " + ageWork + ", то ему нужно ходить в школу");
         }
         if (ageWork >= 18 && ageWork <= 24) {
             System.out.println("Если возраст человека равен " + ageWork + ", то его место в университете");
         }
-        if (ageWork > 24) {
+        else  {
             System.out.println("Если возраст человека равен " + ageWork + ", то ему пора ходить на работу");
         }
 
         //Задача 5
         int ageCheck = 13;
-        if (ageCheck < 5) {
+        if (ageCheck <= 5) {
             System.out.println("Если возраст ребёнка равен " + ageCheck + ", то ему нельзя кататься на аттракционе");
         }
         if (ageCheck > 5 && ageCheck < 14) {
