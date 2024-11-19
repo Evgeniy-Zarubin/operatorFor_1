@@ -28,7 +28,7 @@ public class Main {
         }
 
         //Задача 4
-        int ageWork = 15;
+        int ageWork = 6;
         if (ageWork >= 2 && ageWork <= 6) {
             System.out.println("Если возраст человека равен " + ageWork + ", то ему нужно ходить в детский сад");
         }
@@ -38,7 +38,7 @@ public class Main {
         if (ageWork >= 18 && ageWork <= 24) {
             System.out.println("Если возраст человека равен " + ageWork + ", то его место в университете");
         }
-        else  {
+        if (ageWork > 24) {
             System.out.println("Если возраст человека равен " + ageWork + ", то ему пора ходить на работу");
         }
 
